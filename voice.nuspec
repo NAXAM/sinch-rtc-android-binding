@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.SinchVoice.Droid</id>
+        <version>3.11.0</version>
+        <description>Xamarin Binding Library - Sinch Android SDK - Voice/Video</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Sinch Android SDK - Voice/Video</title>
+        <releaseNotes>Sinch Android SDK - Voice/Video v3.11.0</releaseNotes>
+        <summary>Xamarin Binding Library - Sinch Android SDK - Voice/Video</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xand-sinch-voice</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, sinch, sinch-voice, sinch-video, sinch-android-rtc</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.SinchVoice.Droid/bin/Release/Naxam.SinchVoice.Droid.dll" target="lib/MonoAndroid10/Naxam.SinchVoice.Droid.dll" />
+    </files>
+</package>
