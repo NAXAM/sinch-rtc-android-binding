@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.sinch.gson']/class[@name='JsonStreamParser']/method[@name='next' and count(parameter)=0]" name="managedName">NextElement</attr>
+
+    <attr path="/api/package[@name='org.webrtc.sinch']/class[@name='EglBase14']/method[@name='getEglBaseContext' and count(parameter)=0]" name="propertyName">EglBase14Context</attr>
+
+	<attr path="/api/package[@name='com.sinch.gson.internal.bind']/class[@name='CollectionTypeAdapterFactory.Adapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.sinch.gson.stream.JsonReader']]" name="managedName">ReadCollection</attr>   
+	<attr path="/api/package[@name='com.sinch.gson.internal.bind']/class[@name='DateTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.sinch.gson.stream.JsonReader']]" name="managedName">ReadDate</attr>
+    <attr path="/api/package[@name='com.sinch.gson.internal.bind']/class[@name='MapTypeAdapterFactory.Adapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.sinch.gson.stream.JsonReader']]" name="managedName">ReadDictionary</attr>
+    <attr path="/api/package[@name='com.sinch.gson.internal.bind']/class[@name='SqlDateTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.sinch.gson.stream.JsonReader']]" name="managedName">ReadDate</attr>
+    <attr path="/api/package[@name='com.sinch.gson.internal.bind']/class[@name='TimeTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.sinch.gson.stream.JsonReader']]" name="managedName">ReadTime</attr>
+
+	<attr path="/api/package[@name='com.sinch.android.rtc.internal.client']/class[@name='UserAgentMethodInvocationScheduler']" name="visibility">public</attr>
+
+	<remove-node path="/api/package[@name='com.sinch.gson.internal']/class[@name='LinkedHashTreeMap']/method[@name='entrySet' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.sinch.gson.internal']/class[@name='LinkedTreeMap']/method[@name='entrySet' and count(parameter)=0]" />
+
+	<remove-node path="/api/package[@name='com.sinch.relinker']/interface[@name='ReLinker.LoadListener']"/>
+</metadata>
