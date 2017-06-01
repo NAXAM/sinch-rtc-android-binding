@@ -12,7 +12,7 @@
         <releaseNotes>Sinch Android SDK - Voice/Video v3.11.0</releaseNotes>
         <summary>Xamarin Binding Library - Sinch Android SDK - Voice/Video</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/NAXAM/xand-sinch-voice</projectUrl>
+        <projectUrl>https://github.com/NAXAM/sinch-rtc-android-binding</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, sinch, sinch-voice, sinch-video, sinch-android-rtc</tags>
     </metadata>
